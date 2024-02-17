@@ -1,0 +1,94 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00cad8;
+}
+
+form {
+
+    padding: 30px;
+    border-radius: 5px;
+
+}
+
+.online-img-container {
+    border-radius: 50%;
+    box-shadow: rgba(4, 17, 192, 0.16) 0px 1px 4px, rgb(243, 241, 241) 0px 0px 0px 3px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.description {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 75px;
+    width: 55%;
+}
+
+.form-container {
+    /* height: 100vh; */
+    width: 40%;
+}
+
+.signup-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-img-container img {
+    border-radius: 50%;
+    height: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+input {
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    /* margin-top: 10px; */
+    font-size: 17px;
+}
+
+label {
+    font-weight: 800;
+    font-size: 20px;
+    /* color: #0e5fe3; */
+}
+
+.button-container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+button {
+    background-color: #0e5fe3;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+button:hover {
+    background-color: blue;
+}
+
+p {
+    color: red;
+    font-weight: 500;
+}
+
+.auth-img {
+    height: 200px;
+    width: 250px;
+
+}
